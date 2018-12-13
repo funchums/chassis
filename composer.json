@@ -1,0 +1,20 @@
+{
+    "name": "musika/musika",
+    "description": "PHP MVC PROJECT",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Romulo T. Suarez",
+            "email": ""
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    
+    "autoload": {
+        "psr-4": {
+            "Conductor\\": "conductor/",
+            "Ensembles\\": "ensembles/"
+            }
+    }
+}
